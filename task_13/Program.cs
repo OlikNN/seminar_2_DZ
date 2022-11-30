@@ -21,7 +21,7 @@ if (number > 99)
 }
 else
 {
-    Console.WriteLine($"Третьей цифра нет");
+    Console.WriteLine($"Третьей цифры нет");
 }
 
 
