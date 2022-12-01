@@ -14,7 +14,7 @@ if (number > 99)
     while (number >= 100)
     {
         Console.WriteLine($"  {number}");
-        if (number <= 999) Console.WriteLine($" третий знак {number % 10}");
+        Console.WriteLine($" третий знак {number % 10}");
         number /= 10;
         int d = number % 10;
     }
